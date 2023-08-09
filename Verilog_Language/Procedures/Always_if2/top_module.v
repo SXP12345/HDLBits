@@ -1,4 +1,3 @@
-
 // synthesis verilog_input_version verilog_2001
 module top_module (
     input      cpu_overheated,
@@ -20,4 +19,4 @@ module top_module (
         else 
             keep_driving = 0;
     end
- 
+endmodule
